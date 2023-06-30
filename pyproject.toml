@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "c-to-python"
+version = "0.1.0"
+description = ""
+authors = ["DiogoRibeiro7 <diogo_dj@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "c_to_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
